@@ -17,7 +17,7 @@ class PurchaseStratified(models.Model):
     _name = 'purchase.stratified'
     _description = 'Purchase Stratified'
 
-    product_tmpl__id = fields.Many2one('product.template', string='Product Template')
+    product_tmpl_id = fields.Many2one('product.template', string='Product Template')
     purchase_order_id = fields.Many2one('purchase.order', string='Purchase Order')
     amount_total = fields.Float('Amount total', compute='get_amount_total')
     amount_1 = fields.Float('Amount 1')

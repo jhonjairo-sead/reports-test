@@ -19,12 +19,12 @@ class StratifiedKardex(models.TransientModel):
         (3, 'January'),
         (4, 'January'),
         (5, 'January'),
-        (6, 'January')
-        (7, 'January')
-        (8, 'January')
-        (9, 'January')
-        (10, 'January')
-        (11, 'January')
+        (6, 'January'),
+        (7, 'January'),
+        (8, 'January'),
+        (9, 'January'),
+        (10, 'January'),
+        (11, 'January'),
         (12, 'January')
     ], string='Month')
     year = fields.Integer('Year')
