@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report id="stock_valuation_layer_report_stratitified" model="stock.valuation.layer" string="reporte of stratified kardex" report_type="xlsx" name="reports_integration.stock_valuation_layer_report" file="Reporte of stratified kardex" attachment_use="False"/>
+    </data>
+</odoo>

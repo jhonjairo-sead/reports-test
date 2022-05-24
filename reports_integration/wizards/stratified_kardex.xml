@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="stratified_kardex_view_form" model="ir.ui.view">
+        <field name="name">stratified.kardex.view.form</field>
+        <field name="model">stratified.kardex</field>
+        <field name="arch" type="xml">
+            <form string="Stratified kardex">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="month"/>
+                            <field name="year"/>
+                        </group>
+                        <group>
+                            <field name="xlsx"/>
+                        </group>
+                    </group>
+                    <button name="generate_report_stratified_kardex" type="object"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

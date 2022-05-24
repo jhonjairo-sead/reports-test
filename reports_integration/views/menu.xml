@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem action="action_stock_valuation_layer_report" id="stock_valuation_layer_report_menu" parent="account.menu_finance_reports" string="Reporte of stratified kardex" sequence="2"/>
+    </data>
+</odoo>
