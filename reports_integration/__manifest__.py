@@ -8,7 +8,7 @@
     'license': 'LGPL-3',
     'category': '',
     'depends': [
-        'stock'
+        'stock_account', 'product'
     ],
     'data': [
         'views/stock_valuation_layer.xml',
